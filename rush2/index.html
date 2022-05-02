@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css" type="text/css"/>
+    <script src="./drag_and_drop.js"></script>
+    <title>Tar | Archive | File</title>
+</head>
+    <body>
+        <h1>Archivez/Compressez</h1>
+        <div class="container-form">
+            <form method="POST" action="#">
+                <div class="arch-name">
+                    <label for="nom">Nom de l'archive:</label>
+                    <input type="text" id="nom" class="nom" name="nom" pattern="[A-Za-z]{2,}">
+                </div>
+                <div id="drop_zone">Déposez ici.</div>
+                <div class="gen-input">
+                    <input type="button" value="Génerer un fichier tar" id="genrate_file" onclick="download//(nom de page);" />
+                    <input type="button" value="Télecharger l'archive" id="download_file" onclick="download//(nom de page);" />
+                </div>
+            </form>
+        </div>
+    </body>
+</html> 

@@ -1,0 +1,61 @@
+/* (A) UPLOAD ZONE */
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+  box-sizing: border-box;
+  
+}
+
+html {
+  background: url(./img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Itim", sans-serif;
+  text-align: center;
+  color:White;
+  background:rgba(128, 128, 128, 0.527)
+}
+
+input {
+  max-width: 400px;
+}
+
+.container-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;
+  background-color: rgba(128, 128, 128, 0.527);
+}
+
+.arch-name{
+  display : flex;
+  flex-direction: column;
+  padding: 1em;
+}
+
+.arch-name label {
+  text-align: center;
+}
+
+#drop_zone {
+  width: 20em; 
+  height: 10em;; 
+  background: #cfd5ff;
+  padding: 1em;
+  margin: auto;
+}
+
+#drop_zone.highlight {
+  background: #ff0;
+  border: 3px blue dashed;
+  /* min-width: 176px; */
+}
+
+.gen-input {
+  display: flex;
+  padding: 1em;
+}

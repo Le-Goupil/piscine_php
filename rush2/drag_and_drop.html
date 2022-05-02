@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <title>Formulaire</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="index.css" type="text/css"/>
+    </head>
+    <body>
+    
+        <section>
+            <form method="POST" id="" action="#">
+            
+            <label for="nom">Nom de l'archive:</label>
+            <input type="text" id="nom" class="nom" name="nom" pattern="[A-Za-z]{2,}">
+            <br>
+        </section>
+        
+        <div id="upzone" class="drop_zone">
+            Drop Files Here
+        </div>
+        <br>   
+        <input type="button" value="Génerer un fichier tar" id="genrate_file" onclick="download(//nom de page);" />
+        <br>
+        <input type="button" value="Télecharger l'archive" id="download_file" onclick="download(//nom de page);" />
+        <br>  
+    </body>
+    <script src="drag_and_drop.js"></script>
+</html>
